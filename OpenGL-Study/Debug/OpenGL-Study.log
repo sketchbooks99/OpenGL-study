@@ -1,0 +1,2 @@
+﻿  glad.c
+C:\Users\lunae\OneDrive\ドキュメント\OpenGL-Study\OpenGL-Study\src\glad.c(25): fatal error C1083: include ファイルを開けません。'glad/glad.h':No such file or directory
