@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <string>
-#include <vector>
 #include <iostream>
 #include <fstream>
 #include <algorithm>
@@ -20,8 +19,9 @@ using namespace std;
 class Shader {
 public:
 	void LoadShader(const char* _vert_path, const char* _frag_path);
+	void LoadShaderFromSource(const char* _vertSource, const char* _fragSource);
 	// use method
-	inline void useShader();
+	void useShader();
 	// set Uniform Bool
 	void setUniformBool(const std::string& _name, bool _bool);
 	// set Uniform Values
@@ -49,6 +49,6 @@ public:
 
 private:
 	int shaderID_;
+	const char* fragSource_;
+	const char* vertSource_;
 };
-
-int LoadShader(const char* _vert_path, const char* _frag_path);

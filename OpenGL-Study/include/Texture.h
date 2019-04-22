@@ -9,7 +9,7 @@ public:
 	void draw();
 	void load(const char* _tex_path);
 	void resize(int _width, int _height);
-	inline GLuint getTextureID();
+	GLuint getTextureID();
 
 private:
 	GLuint texID_;
@@ -39,5 +39,3 @@ private:
 		}";
 
 };
-
-void Render(GLFWwindow* _window);

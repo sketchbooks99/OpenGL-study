@@ -1,2 +1,6 @@
-﻿  Texture.cpp
+﻿  Main.cpp
+  Shader.cpp
+  Texture.cpp
+  Util.cpp
+  コードを生成中...
   OpenGL-Study.vcxproj -> C:\Users\lunae\OneDrive\ドキュメント\OpenGL-Study\x64\Debug\OpenGL-Study.exe
